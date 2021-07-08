@@ -53,4 +53,4 @@ def cool():
 
 
     return render_template('waiting.html')
-app.run()
+app.run(threaded=True)
