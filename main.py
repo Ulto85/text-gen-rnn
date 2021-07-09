@@ -37,7 +37,7 @@ def index():
         return redirect(url_for('cool'))
 
     return render_template('index.html')
-@app.route('/asdff34t56576?56578')
+@app.route('/result')
 def cool():
     global strong
     if fle != None:
